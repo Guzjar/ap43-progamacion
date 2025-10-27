@@ -1,26 +1,44 @@
 <?php
 $paises=[
     [
-        'city'=>"tokyo"
-        'country'=>"japan"
+        'city'=> "tokyo",
+        'country'=> "japan"
     ],
     [
-        'city'=>"mexico city"
-        'country'=>"mexico"
+        'city'=> "mexico city",
+        'country'=> "mexico"
     ],
     [
-        'city'=>"new york"
-        'country'=>"USA"
+        'city'=> "new york",
+        'country'=> "USA"
     ],
     [
-        'city'=>"mumbai"
-        'country'=>"india"
+        'city'=> "mumbai",
+        'country'=> "india"
+    ],
+    [ 
+        'city'=> "seoul",
+        'country'=> "koera"
     ],
     [
-        'city'=>"seoul"
-        'country'="india"
+        'city'=> "shanghai",
+        'country'=> "china"
     ],
     [
-        'city'
+        'city'=> "lagos",
+        'country'=> "nigeria"
+    ],
+    [
+        'city'=> "buenos aires",
+        'country'=> "argentina"
+    ],
+    [
+        'city'=> "cairo",
+        'country'=> "egypt"
+    ],
+    [
+        'city'=> "london",
+        'country'=> "england"
     ]
 ];
+var_dump($paises);
